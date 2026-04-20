@@ -1,0 +1,31 @@
+.center-card {
+    margin: 20px;
+    text-align: center;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.img-container img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.mi-popover {
+    --width: 300px;   
+    --max-width: 90%;
+}
+
+.popover-text {
+    white-space: nowrap;   
+    padding: 10px;
+}
