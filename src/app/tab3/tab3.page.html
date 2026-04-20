@@ -1,17 +1,45 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 3
-    </ion-title>
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Contacto</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content class="ion-padding">
 
-  <app-explore-container name="Tab 3 page"></app-explore-container>
-</ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Envíame un mensaje</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <ion-list>
+
+        <ion-item>
+          <ion-avatar slot="start">
+            <img src="../../../assets/w.jpg">
+          </ion-avatar>
+          <ion-label>WhatsApp</ion-label>
+          <ion-note slot="end">+593 959 872 730</ion-note>
+        </ion-item>
+
+        <ion-item>
+          <ion-avatar slot="start">
+            <img src="../../../assets/e.png">
+          </ion-avatar>
+          <ion-label>Email</ion-label>
+          <ion-note slot="end">nayelyayol9@gmail.com</ion-note>
+        </ion-item>
+
+        <ion-item>
+          <ion-avatar slot="start">
+            <img src="../../../assets/l.png">
+          </ion-avatar>
+          <ion-label>Ubicación</ion-label>
+          <ion-note slot="end">Quito</ion-note>
+        </ion-item>
+
+      </ion-list>
+
+    </ion-card-content>
+
+  </ion-card>
